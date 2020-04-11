@@ -1,4 +1,4 @@
-// jshint esversion: 6
+// jshint esversion: 7
 // Req. 3b returns averages
 let arrAvg = arr => {
   let sum = 0;
@@ -27,3 +27,5 @@ let sumEvens = num => {
   }
   return sum;
 };
+
+// extra credit alpha position
