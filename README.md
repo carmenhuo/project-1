@@ -4,5 +4,5 @@
 
 - Basic Unix Shell commands
 - Install and Configure Git using the Unix Shell
-- Add the learning objectives for this project
-- Add one additional thing you learned doing this project
+- Github Overview
+- Make directories through unix
