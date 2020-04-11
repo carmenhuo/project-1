@@ -7,9 +7,12 @@ let arrAvg = arr => {
   }
   return sum / arr.length;
 };
-//Req. 3c
+//Req. 3c array max
 
 let arrMax = arr => {
-  //
+  let max = 0;
+  arr.forEach(function(elem) {
+    if (max < elem) max = elem;
+  });
+  return max;
 };
-//===================
