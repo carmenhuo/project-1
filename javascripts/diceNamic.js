@@ -17,7 +17,7 @@ let controller = () => {
     imgElem1,
     cheeryMsg;
 
-  //get the target number from the web page
+  //target number
   target = document.querySelector("input").value;
   console.log(target);
 
@@ -44,7 +44,7 @@ let controller = () => {
   die2URL = `images/die${die2}.gif`;
   imgElem1 = document.querySelectorAll("img")[1];
   imgElem1.setAttribute("src", die2URL);
-
+  //display
   cheeryMsg = `You hit your number in ${rollCount} roll${
     rollCount == 1 ? "" : "s"
   }!`;

@@ -3,11 +3,11 @@ input[type="text"] {
 }
 button {
   background-color: black;
-  color: lime;
+  color: pink;
   font-size: 24px;
   border-radius: 7px;
 }
 hr {
   height: 3px;
-  background-color: dodgerblue;
+  background-color: MistyRose;
 }
